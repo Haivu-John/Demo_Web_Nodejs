@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: node-app2
-          image: haikylo/demo-web-nodejs:v1.0
+          image: haikylo/demo-web-nodejs:latest
           imagePullPolicy: Always
           resources:
             # Specifying the resourses that we might need for our application
